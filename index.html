@@ -180,7 +180,16 @@
       <h2>Let&#x27;s Chat</h2>
       <p class="paragraph-10">We want to hear about your project</p>
       <div class="w-form">
-        <form id="wf-form-Jason-Navarro-Web-Design" name="wf-form-Jason-Navarro-Web-Design" data-name="Jason Navarro Web Design"><label for="Name" class="field-label-3">Name</label><input type="text" class="input w-input" maxlength="256" name="Name" data-name="Name" placeholder="Enter your name" id="Name" required=""><label for="Phone-Number" class="field-label-3">Phone Number</label><input type="tel" class="input w-input" maxlength="256" name="Phone-Number" data-name="Phone Number" placeholder="Enter your phone number" id="Phone-Number" required=""><label for="email-3" class="field-label-4">Email Address</label><input type="email" class="input w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Enter your email" id="email-2" required=""><input type="submit" value="Submit" data-wait="Please wait..." class="button form-button w-button"></form>
+        <form id="wf-form-Jason-Navarro-Web-Design" name="wf-form-Jason-Navarro-Web-Design" data-name="Jason Navarro Web Design" action="https://formspree.io/mqkyjqyn" method="POST">
+          <label for="Name" class="field-label-3">Name</label>
+          <input type="text" class="input w-input" maxlength="256" name="Name" data-name="Name" placeholder="Enter your name" id="Name" required="">
+          <label for="email-3" class="field-label-4">Email Address</label>
+          <input type="email" class="input w-input" maxlength="256" name="email-2" data-name="Email 2" placeholder="Enter your email" id="email-2" required="">
+          <label for="Message" class="field-label-3">Details About the Project</label>
+          <textarea placeholder="Enter your message" rows="6" class="input w-input" name="message" data-name="Message" form="wf-form-Jason-Navarro-Web-Design" id="Message" required=""></textarea>
+          
+          <input type="submit" value="Submit" data-wait="Please wait..." class="button form-button w-button">
+        </form>
         <div class="w-form-done">
           <div>Thank you! Your submission has been received!</div>
         </div>
