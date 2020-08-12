@@ -2574,7 +2574,7 @@ a {
   }
   .menu-button.w--open {
     border-radius: 9px;
-    background-color: #000;
+    background-color: #0f0f0f;
     color: #fffcfc;
   }
   .nav-menu-2 {
@@ -2731,7 +2731,7 @@ a {
   }
   .menu-button-2.w--open {
     background-color: #fff;
-    color: #50a552;
+    color: #489c4b;
   }
   .nav-menu-3 {
     background-color: #000;
@@ -2899,6 +2899,7 @@ a {
     margin-top: -3px;
     margin-bottom: 5vh;
     padding-bottom: 100px;
+    padding-left: 5vw;
     text-align: left;
   }
   .feature-wrap {
@@ -2939,12 +2940,20 @@ a {
     max-width: 69%;
     font-size: 16px;
   }
+  .hero-subhead.mobil.two {
+    display: block;
+    margin-top: 29px;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
   .hero-subhead.all {
+    display: none;
     max-width: 95%;
     margin-top: 44px;
     margin-left: -121px;
     font-size: 17px;
-    text-align: left;
+    text-align: center;
   }
   .footer-link {
     display: inline-block;
@@ -2998,6 +3007,10 @@ a {
   .heading-3 {
     font-size: 9vw;
     line-height: 7vh;
+  }
+  .heading-3.titlehomepage {
+    padding-left: 16px;
+    line-height: 8vh;
   }
   .form-block {
     width: 100%;
@@ -3434,6 +3447,8 @@ a {
   }
   .heading-3.titlehomepage {
     min-width: 94vw;
+    padding-left: 0px;
+    line-height: 5vh;
   }
   .text-block-3 {
     margin-top: 29px;
