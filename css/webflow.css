@@ -1686,8 +1686,8 @@ textarea.w-select {
   outline: 0;
 }
 .w-nav-button.w--open {
-  background-color: #FFFFFF;
-  color: #46d06b;
+  background-color: #FFFFFF !important;
+  color: #46d06b !important;
 }
 .w-nav[data-collapse="all"] .w-nav-menu {
   display: none;
