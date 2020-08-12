@@ -2405,6 +2405,14 @@ a {
   grid-template-rows: auto;
 }
 
+.textarea-2 {
+  border-radius: 3px;
+}
+
+.textarea-2:hover {
+  box-shadow: inset 0 0 0 2px #3de9a1;
+}
+
 @media screen and (max-width: 991px) {
   h2 {
     font-size: 34px;
@@ -2772,6 +2780,10 @@ a {
     border-top-right-radius: 3px;
     border-bottom-left-radius: 3px;
   }
+  .button.form-button.homepage {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
   .button.teo {
     margin-top: 0px;
     padding-right: 40px;
@@ -2834,7 +2846,7 @@ a {
     margin-top: -38px;
   }
   .image-2.mobil {
-    margin-left: 35px;
+    margin-left: 22px;
   }
   .hero-image {
     display: none;
@@ -3064,6 +3076,10 @@ a {
     background-color: #1b1b1b;
     box-shadow: none;
   }
+  .pricing-block:hover {
+    width: 98%;
+    padding-left: 45px;
+  }
   .pricing-column {
     padding-right: 0px;
     padding-bottom: 25px;
@@ -3085,6 +3101,24 @@ a {
   }
   .image-section-overlay {
     padding: 25px;
+  }
+  .column-title-block.homepage {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .container-4 {
     max-width: none;
@@ -3216,15 +3250,26 @@ a {
     margin-top: 10px;
     margin-left: 0px;
   }
+  .button.form-button.homepage {
+    width: 100%;
+    padding-right: 60px;
+    padding-left: 60px;
+  }
   .button.teo {
-    padding-right: 10px;
-    padding-left: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding: 20px 10px;
+  }
+  .wrapper {
+    width: 95%;
   }
   .wrap {
     padding-right: 5vw;
     padding-left: 5vw;
   }
   .wrap.mobil {
+    width: 98%;
+    padding-right: 5vw;
     padding-bottom: 37px;
   }
   .image-2 {
@@ -3233,6 +3278,10 @@ a {
   }
   .image-2.designtwo {
     margin-top: -6px;
+  }
+  .image-2.mobil {
+    width: 100%;
+    margin-left: 32px;
   }
   .button-wrap {
     width: 90vw;
@@ -3255,6 +3304,7 @@ a {
     text-align: center;
   }
   .hero-content {
+    width: 99%;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
@@ -3353,6 +3403,9 @@ a {
     font-size: 35px;
     line-height: 40px;
   }
+  .heading-3.titlehomepage {
+    min-width: 94vw;
+  }
   .text-block-3 {
     margin-top: 29px;
     margin-left: -6px;
@@ -3433,6 +3486,19 @@ a {
   .section-divider-line.feature-divider {
     margin-top: 7px;
   }
+  .pricing-block {
+    width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .pricing-block:hover {
+    padding-left: 10px;
+  }
+  .pricing-column {
+    overflow: visible;
+  }
   .checklist-column-right {
     padding-right: 0px;
     padding-left: 0px;
@@ -3457,6 +3523,27 @@ a {
   }
   .column-title-block {
     margin-bottom: 14px;
+  }
+  .column-title-block.homepage {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
   }
   .sticky-nav {
     padding: 0px;
@@ -3522,6 +3609,12 @@ a {
   }
   .bold-text-3.packagepage.inner-pages {
     font-size: 25px;
+  }
+  .textarea-2 {
+    border-radius: 3px;
+  }
+  .textarea-2:hover {
+    box-shadow: inset 0 0 0 2px #3de9a1;
   }
 }
 
