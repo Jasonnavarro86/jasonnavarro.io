@@ -3486,7 +3486,7 @@ a {
     width: 100vw;
   }
   .body {
-    overflow: hidden;
+    overflow: visible !important;
   }
   .feature-content {
     width: auto;
