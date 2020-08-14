@@ -3161,7 +3161,7 @@ a {
   .hero-subhead.all {
     display: block;
     max-width: 95%;
-    margin-top: 14px;
+    margin-top: -10px;
     margin-left: 0px;
     font-size: 15px;
     line-height: 28px;
