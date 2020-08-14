@@ -19,7 +19,7 @@ body {
 
 h1 {
   margin-top: 20px;
-  margin-bottom: 38px;
+  margin-bottom: 10px;
   color: #fff;
   font-size: 10vh;
   line-height: 10vh;
@@ -69,6 +69,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   width: 100%;
   height: auto;
   -webkit-box-orient: vertical;
@@ -92,6 +93,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   height: 100vh;
   padding-top: 0vh;
   -webkit-box-pack: center;
@@ -214,6 +216,7 @@ a {
 }
 
 .prices.wide.img {
+  overflow: hidden;
   width: 100%;
   padding-top: 5vh;
   padding-bottom: 0vh;
@@ -657,6 +660,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   width: 100%;
   max-width: none;
   margin-top: -35px;
@@ -692,8 +696,13 @@ a {
   text-align: center;
 }
 
+.wrap.mobil {
+  overflow: hidden;
+}
+
 .title {
   display: inline-block;
+  overflow: hidden;
   padding-bottom: 32px;
   border-bottom: 1px none #2e2e2e;
   font-family: 'Gothic A1', sans-serif;
@@ -1021,6 +1030,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   width: 100%;
   max-width: none;
   margin-top: 13px;
@@ -1150,8 +1160,9 @@ a {
 }
 
 .hero-subhead.all {
+  overflow: hidden;
   max-width: 100%;
-  margin-top: 0px;
+  margin-top: -12px;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
@@ -1214,6 +1225,7 @@ a {
 }
 
 .footer-list {
+  min-width: 100%;
   padding-top: 29px;
   padding-bottom: 29px;
 }
@@ -1534,7 +1546,7 @@ a {
 }
 
 .image-6 {
-  width: 24%;
+  width: 193px;
   max-width: 100%;
 }
 
@@ -1576,6 +1588,7 @@ a {
 }
 
 .text-block-5 {
+  overflow: visible;
   margin-top: 19px;
   margin-bottom: 40px;
   font-family: 'Montserrat Alternates', sans-serif;
@@ -1998,6 +2011,7 @@ a {
 }
 
 .column-title {
+  overflow: hidden;
   margin-top: 0px;
   margin-bottom: 6px;
   font-family: Montserrat, sans-serif;
@@ -2047,6 +2061,7 @@ a {
 }
 
 .column-title-block.homepage {
+  overflow: hidden;
   text-align: center;
 }
 
@@ -2527,15 +2542,20 @@ a {
 }
 
 .heading-8.homepage {
+  overflow: hidden;
   margin-bottom: 20px;
   margin-left: 32px;
   padding-right: 0px;
   font-size: 5.5vw;
-  line-height: 8vh;
+  line-height: 12vh;
   text-align: center;
   white-space: pre-wrap;
   -o-object-fit: fill;
   object-fit: fill;
+}
+
+.slide {
+  overflow: hidden;
 }
 
 @media screen and (max-width: 991px) {
@@ -2568,6 +2588,7 @@ a {
     width: 100vw;
   }
   .nav-inner {
+    overflow: hidden;
     width: 100vw;
     min-width: 0px;
     padding-top: 0px;
@@ -2689,6 +2710,9 @@ a {
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
+  }
+  .footer-list {
+    min-width: 100%;
   }
   .input.inner-pages {
     width: 100%;
@@ -2988,7 +3012,7 @@ a {
     text-align: left;
   }
   .button {
-    margin-top: 70px;
+    margin-top: 102px;
     margin-bottom: 0px;
     padding: 12px;
     font-size: 14px;
@@ -3101,7 +3125,7 @@ a {
     margin-bottom: 6px;
   }
   .hero-content {
-    margin-top: -3px;
+    margin-top: 0px;
     margin-bottom: 5vh;
     padding-bottom: 100px;
     padding-left: 5vw;
@@ -3159,17 +3183,23 @@ a {
     align-self: center;
   }
   .hero-subhead.all {
+    position: absolute;
+    top: 76px;
     display: block;
     max-width: 95%;
-    margin-top: -10px;
+    margin-top: 16px;
+    margin-bottom: 0px;
     margin-left: 0px;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 28px;
     text-align: center;
   }
   .footer-link {
     display: inline-block;
     margin-bottom: 10px;
+  }
+  .footer-list {
+    min-width: 100%;
   }
   .form-2 {
     -webkit-box-orient: vertical;
@@ -3265,6 +3295,9 @@ a {
   }
   .text-block-4 {
     top: 38px;
+  }
+  .image-6 {
+    width: 118px;
   }
   .grid-2 {
     margin-top: 22px;
@@ -3387,6 +3420,7 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    overflow: visible;
     width: 100%;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -3500,10 +3534,15 @@ a {
     font-size: 6vw;
   }
   .heading-8.homepage {
+    overflow: visible;
     min-width: 723px;
     margin-bottom: 0px;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
     font-size: 7vw;
-    line-height: 21px;
+    line-height: 38px;
   }
 }
 
@@ -3569,8 +3608,7 @@ a {
     margin-top: 10px;
     margin-right: 0px;
     margin-left: 0px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 16px 20px;
     font-size: 14px;
     line-height: 21px;
     text-align: center;
@@ -3624,6 +3662,9 @@ a {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+  .nav-menu-wrap {
+    overflow: hidden;
   }
   .nav-link.whitebackground {
     margin-bottom: 0px;
@@ -3690,7 +3731,7 @@ a {
   }
   .hero-subhead.mobil.two {
     display: block;
-    margin-top: 9px;
+    margin-top: 63px;
     -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
     align-self: flex-start;
@@ -3819,6 +3860,9 @@ a {
   .text-block-4 {
     top: 8.6vw;
     font-size: 24px;
+  }
+  .image-6 {
+    width: 113px;
   }
   .grid-2 {
     padding-right: 35px;
