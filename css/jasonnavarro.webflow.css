@@ -2904,7 +2904,7 @@ a {
     padding-top: 0px;
   }
   .body {
-    overflow: hidden;
+    /* overflow: hidden; */
   }
   .feature-content.icons {
     width: auto;
