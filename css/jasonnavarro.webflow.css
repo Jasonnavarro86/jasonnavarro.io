@@ -1022,6 +1022,7 @@ a {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  max-width: none;
   margin-top: 13px;
   padding-right: 0vh;
   padding-left: 0vh;
@@ -1038,6 +1039,9 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
   text-align: center;
 }
 
@@ -1146,7 +1150,12 @@ a {
 }
 
 .hero-subhead.all {
-  margin-top: -32px;
+  max-width: 100%;
+  margin-top: 0px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   color: #55bb8a;
   font-size: 23px;
 }
@@ -2507,8 +2516,26 @@ a {
 }
 
 .heading-8 {
+  margin-right: 0px;
+  margin-left: 0px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   font-family: 'Montserrat Alternates', sans-serif;
   font-size: 5vw;
+}
+
+.heading-8.homepage {
+  margin-bottom: 20px;
+  margin-left: 32px;
+  padding-right: 0px;
+  font-size: 5.5vw;
+  line-height: 8vh;
+  text-align: center;
+  white-space: pre-wrap;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 @media screen and (max-width: 991px) {
@@ -2563,7 +2590,8 @@ a {
   }
   .button {
     margin-top: 51px;
-    padding: 10px 20px;
+    margin-bottom: 40px;
+    padding: 18px 20px;
   }
   .button.form-button {
     padding-right: 40px;
@@ -2622,6 +2650,7 @@ a {
     text-align: center;
   }
   .hero-content {
+    overflow: hidden;
     margin-top: 0px;
     padding-right: 5vw;
     padding-bottom: 100px;
@@ -2647,9 +2676,9 @@ a {
     line-height: 31px;
   }
   .hero-subhead.all {
-    margin-top: -35px;
+    margin-top: -22px;
     margin-bottom: 0px;
-    font-size: 20px;
+    font-size: 18px;
   }
   .bottom-image-wrap {
     height: auto;
@@ -2887,6 +2916,11 @@ a {
     margin-left: 0px;
     font-size: 5.5vw;
   }
+  .heading-8.homepage {
+    min-width: 752px;
+    font-size: 50px;
+    line-height: 77px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2895,16 +2929,20 @@ a {
     line-height: 38px;
   }
   .prices.center {
+    overflow: hidden;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(73, 73, 73, 0.5)), to(rgba(73, 73, 73, 0.5))), url('../images/AdobeStock_298839437-compress1.jpg'), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
     background-image: linear-gradient(180deg, rgba(73, 73, 73, 0.5), rgba(73, 73, 73, 0.5)), url('../images/AdobeStock_298839437-compress1.jpg'), linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     background-position: 0px 0px, 50% 0%, 0px 0px;
     background-size: auto, cover, auto;
   }
+  .prices.wide.img {
+    overflow: hidden;
+  }
   .nav-inner {
     padding-top: 0px;
   }
   .body {
-    overflow: visible !important;
+    overflow: visible;
   }
   .feature-content.icons {
     width: auto;
@@ -2950,7 +2988,8 @@ a {
     text-align: left;
   }
   .button {
-    margin-top: 29px;
+    margin-top: 70px;
+    margin-bottom: 0px;
     padding: 12px;
     font-size: 14px;
   }
@@ -3122,9 +3161,10 @@ a {
   .hero-subhead.all {
     display: block;
     max-width: 95%;
-    margin-top: 9px;
+    margin-top: 14px;
     margin-left: 0px;
     font-size: 15px;
+    line-height: 28px;
     text-align: center;
   }
   .footer-link {
@@ -3459,6 +3499,12 @@ a {
     margin-bottom: -3px;
     font-size: 6vw;
   }
+  .heading-8.homepage {
+    min-width: 723px;
+    margin-bottom: 0px;
+    font-size: 7vw;
+    line-height: 21px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3469,7 +3515,11 @@ a {
   h3 {
     font-size: 16px;
   }
+  .prices {
+    overflow: hidden;
+  }
   .prices.center {
+    overflow: visible;
     width: 100vw;
     padding-bottom: 5vh;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(73, 73, 73, 0.5)), to(rgba(73, 73, 73, 0.5))), url('../images/AdobeStock_298839437-compress1.jpg');
@@ -3477,7 +3527,14 @@ a {
     background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
   }
+  .prices.wide.img {
+    overflow: hidden;
+  }
+  .prices.wide.purple {
+    color: #fff;
+  }
   .hero {
+    overflow: visible;
     width: 100vw;
     padding-right: 0vw;
     padding-left: 0vw;
@@ -3486,7 +3543,7 @@ a {
     width: 100vw;
   }
   .body {
-    overflow: visible !important;
+    overflow: visible;
   }
   .feature-content {
     width: auto;
@@ -3540,6 +3597,7 @@ a {
     width: 95%;
   }
   .wrap {
+    overflow: hidden;
     padding-right: 5vw;
     padding-left: 5vw;
   }
@@ -3632,7 +3690,7 @@ a {
   }
   .hero-subhead.mobil.two {
     display: block;
-    margin-top: 63px;
+    margin-top: 9px;
     -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
     align-self: flex-start;
@@ -3718,12 +3776,14 @@ a {
   }
   .heading-3.titlehomepage {
     display: block;
-    min-width: 87vw;
+    width: 87vw;
+    max-width: 0px;
+    min-width: 316px;
     margin-bottom: -41px;
     padding-left: 0px;
     color: #fff;
-    font-size: 5vh;
-    line-height: 6vh;
+    font-size: 4.7vh;
+    line-height: 52px;
     text-align: left;
   }
   .text-block-3 {
@@ -3814,7 +3874,8 @@ a {
     padding-left: 10px;
   }
   .pricing-block:hover {
-    padding-left: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
   .pricing-column {
     overflow: visible;
@@ -3889,6 +3950,7 @@ a {
     border-top: 1px solid #c4c4c4;
   }
   .footer-2 {
+    overflow: hidden;
     padding-right: 20px;
     padding-left: 20px;
     text-align: left;
@@ -3953,7 +4015,11 @@ a {
     margin-top: 6px;
   }
   .column-left.innerpage.onepro.tew {
+    overflow: hidden;
     margin-top: 22px;
+  }
+  .column-right {
+    overflow: hidden;
   }
   .bold-text-3.packagepage.inner-pages {
     font-size: 25px;
