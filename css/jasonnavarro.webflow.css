@@ -2538,7 +2538,7 @@ a {
   -ms-grid-row-align: center;
   align-self: center;
   font-family: 'Montserrat Alternates', sans-serif;
-  font-size: 5vw;
+  font-size: 4vw !important;
 }
 
 .heading-8.homepage {
@@ -2546,7 +2546,7 @@ a {
   margin-bottom: 20px;
   margin-left: 32px;
   padding-right: 0px;
-  font-size: 4vw;
+  font-size: 4vw !important;
   line-height: 12vh;
   text-align: center;
   white-space: pre-wrap;
