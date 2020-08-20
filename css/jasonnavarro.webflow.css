@@ -2220,6 +2220,7 @@ a {
   object-fit: contain;
   -o-object-position: 0% 50%;
   object-position: 0% 50%;
+  margin-top: -92px;
 }
 
 .footer-heading {
@@ -2950,6 +2951,10 @@ a {
     font-size: 33px;
     line-height: 77px;
   }
+  .footer-image {
+ 
+  margin-top: -42px;
+}
 }
 
 @media screen and (max-width: 767px) {
@@ -3549,6 +3554,9 @@ a {
     font-size: 4.7vw;
     line-height: 38px;
   }
+  .footer-image {
+  margin-top: -19px;
+}
 }
 
 @media screen and (max-width: 479px) {
