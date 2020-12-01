@@ -1178,7 +1178,7 @@ figcaption {
   align-items: center;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  background-image: url('../images/photo-1457213453084-d386450c6252.jpg');
+  background-image: url('../images/Screen-Shot-2020-11-30-at-12.27.01-PM.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1186,6 +1186,12 @@ figcaption {
   text-decoration: none;
 }
 
+.work-sample-image-bg.reclaimed {
+  background-image: url('../images/Screen-Shot-2020-11-30-at-12.26.55-PM.png');
+}
+.work-sample-image-bg.csf {
+  background-image: url('../images/Screen-Shot-2020-11-30-at-12.26.40-PM.png');
+}
 .work-sample-logo {
   position: relative;
   z-index: 1;
@@ -3761,6 +3767,7 @@ figcaption {
 
 .heading-11 {
   text-align: center;
+  min-height: 4px;
 }
 
 .image-4 {
