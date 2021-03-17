@@ -292,6 +292,11 @@ figcaption {
   opacity: 0.4;
 }
 
+.submit{
+  height: 55px;
+  background-color: #efefef;
+}
+
 .text-container {
   overflow: visible;
   margin-top: 2%;
@@ -4186,10 +4191,6 @@ figcaption {
     grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
   }
    
-  .submit{
-    height: 55px;
-    background-color: #efefef;
-  }
 
   .slide-nav.on-testimonials {
     position: relative;
