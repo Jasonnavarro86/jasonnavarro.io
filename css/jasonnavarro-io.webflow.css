@@ -292,9 +292,22 @@ figcaption {
   opacity: 0.4;
 }
 
-.submit{
+.my-button{
+  z-index: 5;
   height: 55px;
-  background-color: #efefef;
+  min-width: 130px;
+  padding: 19px 30px 18px;
+  background-color: #024fba;
+  box-shadow: none;
+
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: none;
 }
 
 .text-container {
@@ -3801,8 +3814,16 @@ figcaption {
 }
 
 .my-form-input{
+  border: none;
   height: 4em;
   padding: 1em;
+  height: 55px;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-decoration: none;
+
 }
 
 @media screen and (max-width: 991px) {
@@ -4190,7 +4211,12 @@ figcaption {
     gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
   }
-   
+  .my-form-input { 
+    border-radius: 5px;
+  }
+  .my-button { 
+    border-radius: 5px;
+  }
 
   .slide-nav.on-testimonials {
     position: relative;
