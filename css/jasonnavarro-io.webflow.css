@@ -3778,6 +3778,28 @@ figcaption {
   text-align: left;
 }
 
+.subscribe {
+  background-color: #242a38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0em 3em 0.5em;
+}
+
+.my-subscription-form {
+  background-color: #242a38;
+  padding: 0em 15em 2em;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.my-form-input{
+  height: 4em;
+  padding: 1em;
+}
+
 @media screen and (max-width: 991px) {
   h4 {
     margin-top: 10px;
@@ -4097,6 +4119,21 @@ figcaption {
   .cards-grid-container {
     grid-column-gap: 20px;
   }
+
+  .blue-price {
+    color: #0157d0 !important;
+  }
+
+}
+
+@media screen and (max-width: 1300px){
+  .my-subscription-form {
+    background-color: #242a38;
+    padding: 0em 2em 2em;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -4139,6 +4176,18 @@ figcaption {
   p {
     font-size: 2.7vw;
     line-height: 1.6em;
+  }
+
+  .my-subscription-form {
+    background-color: #242a38;
+    padding: 0em 3em 3em;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+  }
+   
+  .submit{
+    height: 55px;
   }
 
   .slide-nav.on-testimonials {
