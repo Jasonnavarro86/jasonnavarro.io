@@ -149,6 +149,11 @@ figcaption {
   text-align: center;
 }
 
+.my-custom-logo{
+  margin-top: 22px;
+  font-size: 30px;
+}
+
 .navbar {
   height: 84px;
   background-color: #0157d0;
